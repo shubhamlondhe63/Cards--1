@@ -1,0 +1,243 @@
+body {
+    color: #606c76;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1.6em;
+    font-weight: 300;
+    letter-spacing: .01em;
+    line-height: 1.6
+}
+
+
+
+:root {
+    --primaryText: #444;
+    --secondaryText: #757575;
+    --ternaryText: #9e9e9e;
+    --primaryTextInverted: #f8f8fb;
+    --brandColor: #3f51b5;
+    --backgroundColor: #f8f8fb;
+    --errorColor: #d9534f;
+    --warningColor: #f0ad4e;
+    --infoColor: #3a87ad;
+    --successColor: #058f17
+}
+
+
+
+
+.flex{
+    display: flex;
+}
+
+
+
+/* margin css Starts here */
+
+.m-auto{
+    margin: auto;
+}
+
+.m-1{
+    margin: 10px;
+}
+
+.m-2{
+    margin: 20px;
+}
+
+.m-3{
+    margin:30px;
+}
+
+.m-4{
+    margin:40px;
+}
+
+.m-5{
+    margin:50px;
+}
+
+
+.mt-auto{
+    margin-top: auto;
+}
+
+.mt-1{
+    margin-top: 10px;
+}
+
+.mt-2{
+    margin-top: 20px;
+}
+
+.mt-3{
+    margin-top:30px;
+}
+
+.mt-4{
+    margin-top:40px;
+}
+
+.mt-5{
+    margin-top:50px;
+}
+
+/* margin css ends here */
+
+
+.registernowbtn {
+    width: 80%;
+    margin: auto;
+    background-color: #39b54a;
+    color: white;
+
+}
+
+.department {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.JobItem {
+    background-color: #fff;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    margin-bottom: 1.4rem;
+    width: 100%;
+    border: 1px solid #3f51b5;
+    width: 30%;
+    border-radius: 10px;
+    margin: 12px;
+
+}
+
+.Registerbutton-sm {
+    bottom: 0;
+    background-color: #39b54a;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    width: 80%;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 10%;
+
+}
+
+.text-brand {
+    color: var(--brandColor);
+    width: 100%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.text-start{
+    text-align: start;
+}
+
+.text-end{
+    text-align: end;
+}
+
+
+
+/*!
+ * Milligram v1.3.0
+ * https://milligram.github.io
+ *
+ * Copyright (c) 2017 CJ Patoilo
+ * Licensed under the MIT license
+ */
+html {
+    font-size: 62.5%
+}
+
+
+
+
+/* departments button */
+
+.departments .button {
+    border: solid 1px;
+    border-radius: 10px;
+    font-size: 16px;
+    height: 40px;
+    margin: 10px;
+    opacity: 0.85;
+    text-transform: uppercase;
+    width: auto;
+    padding: 0px 40px;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(63, 81, 181);
+}
+
+
+
+
+.departments .button:hover {
+    border: 2px solid;
+    opacity: 1;
+    color: white !important;
+    background-color: rgb(63, 81, 181);
+}
+
+.Active {
+    border: 2px solid;
+    opacity: 1;
+    color: white !important;
+    background-color: rgb(63, 81, 181);
+}
+
+
+.Dark-mode {
+    background-color: rgb(16, 23, 36);
+}
+
+
+@media screen and (max-width: 1250px) {
+    .JobItem {
+        width: 45%;
+    }
+}
+
+
+@media screen and (max-width: 980px) {
+    .JobItem {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .JobItem {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 461px) {
+    .JobItem .mainsection {
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+ 
+    .JobItem .mainsection .JobDetailsSection1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .JobItem .mainsection .JobDetailsSection2 {
+        width: 100%;
+        text-align: center;
+    }
+}
